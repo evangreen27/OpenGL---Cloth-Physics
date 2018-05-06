@@ -1,0 +1,6 @@
+balljoint root {
+	offset 0 0 0
+	boxmin -0.1 -1 -0.1
+	boxmax 0.1 1 0.1
+	pose 0 0 1
+}

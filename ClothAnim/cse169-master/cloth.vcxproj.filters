@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bmploader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DOF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinVertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinningCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringDamper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bmploader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloth.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DOF.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinVertex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinningCube.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringDamper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tester.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cloth.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="head_tex.skin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Model.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wasp.skel">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wasp.skin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="wasp_walk.anim">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dragon.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="house.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="my.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="README.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="sampleanime.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="test.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="tube.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="tube_smooth.skin.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="wasp.skel.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="wasp.skin.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="head.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
